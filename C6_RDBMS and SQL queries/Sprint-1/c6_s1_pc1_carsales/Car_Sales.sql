@@ -1,0 +1,11 @@
+CREATE DATABASE IF NOT EXISTS CarSales;
+USE CarSales;
+CREATE TABLE SalesPersons(SalesId INT PRIMARY KEY , FirstName VARCHAR(100),City VARCHAR(100), CommisionRate INT);
+INSERT INTO SalesPersons VALUES ( 1001 ,'John','London',12);
+INSERT INTO SalesPersons VALUES ( 1002 ,'Bob','San Jose',13);
+INSERT INTO SalesPersons VALUES ( 1004 ,'Judith','London',11);
+INSERT INTO SalesPersons VALUES ( 1007 ,'Robin','Barcelona',15);
+INSERT INTO SalesPersons VALUES ( 1003 ,'Harry','New York',10);
+INSERT INTO SalesPersons VALUES ( 1005 ,'James','London',26);
+INSERT INTO SalesPersons VALUES ( 1008 ,'Charles','Florida',0);
+SELECT * From SalesPersons;
