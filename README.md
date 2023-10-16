@@ -15,5 +15,3 @@ Course -5 : Java Collections, lambdas and Streams
 Course -6 : RDBMS and SQL queries
 
 
-			-- by SHUBHAM CHAUHAN
-
